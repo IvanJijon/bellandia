@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="14px" height="19px" viewBox="0 0 14 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Contact_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="home" sketch:type="MSArtboardGroup" transform="translate(-962.000000, -5.000000)" fill="#023832">
+            <g id="Contact_icon" sketch:type="MSLayerGroup" transform="translate(961.000000, 5.000000)">
+                <path d="M5.32125946,8.11362486 C5.32125946,7.12393189 4.51853078,6.32037037 3.52831476,6.32037037 L0.472574336,6.32037037 C-0.519234626,6.32037037 -1.32037037,7.12323775 -1.32037037,8.11362486 L-1.32037037,9.70627814 L-1.32037037,10.6522776 L-1.32037037,10.2544563 C-1.32037037,11.4357213 -0.369932695,12.5018935 0.802491588,12.6322162 C0.802491588,12.6322162 3.98138944,13.060243 7.64676398,13.060243 C11.3121385,13.060243 14.4818209,12.6331521 14.4818209,12.6331521 C15.6622544,12.5073842 16.6796292,11.4373342 16.6796292,10.2544564 C16.6796292,10.2544564 16.6796296,9.91043593 16.6796296,9.70627814 L16.6796296,8.11362486 C16.6796296,7.12393189 15.8769009,6.32037037 14.8866849,6.32037037 L11.8309445,6.32037037 C10.8391355,6.32037037 10.0379998,7.12323775 10.0379998,8.11362486 L10.0379998,9.31617114 C9.17075847,9.39204524 8.32243882,9.44514814 7.64676398,9.44514814 C6.99619689,9.44514814 6.1712524,9.39371047 5.32125946,9.31973725 L5.32125946,8.11362486 Z" id="Rectangle-12" sketch:type="MSShapeGroup" transform="translate(7.679630, 9.690307) rotate(-300.000000) translate(-7.679630, -9.690307) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
