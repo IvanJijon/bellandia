@@ -2,15 +2,15 @@
 
 <div id="home-header">
     <div class="layer"></div>
-    <video autoplay loop muted poster="<?php echo asset_url(); ?>/assets/img/home/background.png" id="video-bg">
+    <video autoplay loop muted poster="<?php echo asset_url(); ?>img/home/background.png" id="video-bg">
         <source src="<?php echo asset_url(); ?>/videos/bellandia.mp4" type="video/mp4">
     </video>
 
     <div id="top-menu" class="clear-fix">
         <div class="social left">
-            <object data="/public/assets/img/icons/tripadvisor_icon.svg" type="image/svg+xml"></object>
-            <object data="/public/assets/img/icons/facebook_icon.svg" type="image/svg+xml"></object>
-            <object data="/public/assets/img/icons/Twiitter_icon.svg" type="image/svg+xml"></object>
+            <object data="<?php echo asset_url(); ?>img/icons/tripadvisor_icon.svg" type="image/svg+xml"></object>
+            <object data="<?php echo asset_url(); ?>img/icons/facebook_icon.svg" type="image/svg+xml"></object>
+            <object data="<?php echo asset_url(); ?>img/icons/Twiitter_icon.svg" type="image/svg+xml"></object>
         </div>
 
         <div class="phone right">+593 (0)99 6 00 97 81</div>
@@ -53,7 +53,7 @@
             <a href="#">GALERÍA DE IMÁGENES</a>
         </div>
         <div class="img-panel right">
-            <img src="/public/assets/img/home/bienvenido_a_bellandia.png" alt="Bienvenido a Bellandia"/>
+            <img src="<?php echo asset_url(); ?>img/home/bienvenido_a_bellandia.png" alt="Bienvenido a Bellandia"/>
         </div>
     </div>
 
@@ -65,7 +65,7 @@
 
     <div class="row clear-fix">
         <div class="img-panel left">
-            <img src="/public/assets/img/home/dobleotwin.png" alt="Doble o twin"/>
+            <img src="<?php echo asset_url(); ?>img/home/dobleotwin.png" alt="Doble o twin"/>
         </div>
 
         <div class="description-panel right">
@@ -89,13 +89,13 @@
         </div>
 
         <div class="img-panel right">
-            <img src="/public/assets/img/home/cabanadoshabitaciones.png" alt="Doble o twin"/>
+            <img src="<?php echo asset_url(); ?>img/home/cabanadoshabitaciones.png" alt="Doble o twin"/>
         </div>
     </div>
 
     <div class="row clear-fix">
         <div class="img-panel left">
-            <img src="/public/assets/img/home/cabanaverdeamplia.png" alt="Doble o twin"/>
+            <img src="<?php echo asset_url(); ?>img/home/cabanaverdeamplia.png" alt="Doble o twin"/>
         </div>
 
         <div class="description-panel right">
@@ -121,7 +121,7 @@
         </div>
 
         <div class="img-panel right">
-            <img src="/public/assets/img/home/cabanaverde.png" alt="Doble o twin"/>
+            <img src="<?php echo asset_url(); ?>img/home/cabanaverde.png" alt="Doble o twin"/>
         </div>
     </div>
 </div>

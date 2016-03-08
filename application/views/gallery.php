@@ -10,7 +10,7 @@ include("inc/menu-scroll.php");
 	</h1>
 
 				<div class="description-content-row clear-fix">
-					<div class="img-panel left"><img src="<?php echo asset_url(); ?>/img/activities/1.png" alt="SENDEROS"/></div>
+					<div class="img-panel left"><img src="<?php echo asset_url(); ?>img/activities/1.png" alt="SENDEROS"/></div>
 					<div class="description-panel right">
 						<h2>SENDEROS</h2>
 
@@ -24,7 +24,7 @@ include("inc/menu-scroll.php");
 
 						<p>La confluencia de innumerables arroyos naturales se desborda en una cascada de aproximadamente 60 metros. Disfrutar de la energía del entorno, la brisa y la pureza de sus aguas es una experiencia inolvidable. Se puede acceder a través de un sendero natural en declive que tiene 365 gradas o a través de un sendero simple de 10 minutos de caminata.</p>
 					</div>
-					<div class="img-panel right"><img src="<?php echo asset_url(); ?>/img/activities/1.png" alt="CASCADA"/></div>
+					<div class="img-panel right"><img src="<?php echo asset_url(); ?>img/activities/1.png" alt="CASCADA"/></div>
 				</div>
 </div>
 
