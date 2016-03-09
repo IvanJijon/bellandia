@@ -2,7 +2,7 @@ AddDefaultCharset UTF-8
 <IfModule mod_rewrite.c>
  
     RewriteEngine On
-    RewriteBase /~qbik/
+    RewriteBase /bellandia_php/
     
     #Sans www redirection vers www
  	RewriteCond %{HTTP_HOST} !^www\.[^.]+\.[^.]+$
