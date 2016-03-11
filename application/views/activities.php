@@ -7,7 +7,7 @@ include("inc/menu-scroll.php");
 
 <?php
 
-//TEST connection BDD
+/* //TEST connection BDD
 $servername = "192.168.1.142";
 $username = "bellandia";
 $password = "bellandia123";
@@ -18,8 +18,10 @@ $conn = new mysqli($servername, $username, $password);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-} 
+}  
 echo "Connected successfully";
+*/
+
 ?>
 
 <div class="content">
@@ -28,28 +30,36 @@ echo "Connected successfully";
 	</h1>
 
 	<!-- Loop sobre las actividades -->
-		{@math key=$idx method="mod" operand=2}
-			{@eq value=0}
+		<?php 
+		$count = 0;
+		foreach ($activities as $activity) {
+			if (++$count%2){
+		?>
 				<div class="description-content-row clear-fix">
-					<div class="img-panel left"><img src="/public/assets/img/activities/{img}" alt="{name}"/></div>
+					<div class="img-panel left"><img src="<?php echo asset_url(); ?>img/activities/<?php echo $activity->img ?>" alt="<?php echo $activity->name ?>"/></div>
 					<div class="description-panel right">
-						<h2>{name}</h2>
+						<h2><?php echo $activity->name ?></h2>
 
-						<p>{description}</p>
+						<p><?php echo $activity->description ?></p>
 					</div>
 				</div>
-			{:else}
+		<?php
+			}
+			else {
+		?>
 				<div class="description-content-row clear-fix">
 					<div class="description-panel left">
-						<h2>{name}</h2>
+						<h2><?php echo $activity->name ?></h2>
 
-						<p>{description}</p>
+						<p><?php echo $activity->description ?></p>
 					</div>
-					<div class="img-panel right"><img src="/public/assets/img/activities/{img}" alt="{name}"/></div>
+					<div class="img-panel right"><img src="<?php echo asset_url(); ?>img/activities/<?php echo $activity->img ?>" alt="<?php echo $activity->name ?>"/></div>
 				</div>
-			{/eq}
-		{/math}
-	{/activities}
+		<?php
+			}
+		}
+		?>
+	
 </div>
 
 </div>
@@ -58,5 +68,3 @@ echo "Connected successfully";
 <?php 
 include("inc/home-footer.php");
 ?>
-
-
