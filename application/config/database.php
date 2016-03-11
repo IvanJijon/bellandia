@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
+$db['default']['hostname'] = '192.168.1.142';
 $db['default']['username'] = 'bellandia';
-$db['default']['password'] = 'bellandia';
-$db['default']['database'] = 'bellandia_db';
+$db['default']['password'] = 'bellandia123';
+$db['default']['database'] = 'bellandia';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
