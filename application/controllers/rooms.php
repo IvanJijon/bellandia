@@ -8,7 +8,7 @@ class Rooms extends CI_Controller {
 		$this->load->model('rooms_model');
 		// Recuperar info desde la BDD
 		$data['rooms'] = $this->rooms_model->getRooms();
-		$data['cRoom'] = $this->uri->segment(3);
+		$data['cRoom'] = ($this->uri->segment(3) != "") ? $this->uri->segment(3) : 1;
 		// Cargar la vista
 		$this->load->view('rooms', $data);
 	}
