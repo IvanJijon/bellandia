@@ -1,14 +1,14 @@
 <?php
-class Activities_model extends CI_Model {
+class Rooms_model extends CI_Model {
 	public function __construct()
 	{
 		parent::__construct();
 	}
 	
 	//Get Activities
-	function getActivities(){		
+	function getRooms(){		
 		$this->db->order_by('id', 'ASC');		
-		return  $this->db->get('activities')->result();
+		return  $this->db->get('rooms')->result();
 		
 	}
 }

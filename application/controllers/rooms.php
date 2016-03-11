@@ -4,7 +4,13 @@ class Rooms extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('rooms');
+		// Cargar el modelo
+		$this->load->model('rooms_model');
+		// Recuperar info desde la BDD
+		$data['rooms'] = $this->rooms_model->getRooms();
+		$data['cRoom'] = $this->uri->segment(3);
+		// Cargar la vista
+		$this->load->view('rooms', $data);
 	}
 }
 

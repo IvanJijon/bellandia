@@ -6,8 +6,9 @@ class Activities extends CI_Controller {
 	{
 		// Cargar el modelo
 		$this->load->model('activities_model');
+		// Recuperar info desde la BDD
 		$data['activities'] = $this->activities_model->getActivities();
-		// Cargar las actividades desde la BDD		
+		// Cargar la vista	
 		$this->load->view('activities', $data);
 	}
 }
