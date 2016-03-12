@@ -6,6 +6,4 @@
 	<title><?php echo TITLE ?></title> 
 
 	<link rel="stylesheet" href="<?php echo asset_url(); ?>css/style.min.css"/>
-</head>
 
-<body>

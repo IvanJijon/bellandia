@@ -36,6 +36,12 @@ define('FOPEN_READ_WRITE_CREATE',				'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
+define('URL',"http://localhost/");
+define('URL_ASSETS',URL."assets/");
+define('URL_PLUGINS',URL."plugins/");
+define('URL_LESS',URL."less/");
+define('URL_IMG',URL."img/");
+
 /* Título ventana navegador */
 define('TITLE',"Bellandia - Hotel Resort");
 

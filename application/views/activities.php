@@ -1,8 +1,13 @@
 <?php
 include("inc/header.php");
+?>
 
+</head>
+
+<body>
+
+<?php
 include("inc/menu-scroll.php");
-
 ?>
 
 <?php

@@ -1,10 +1,20 @@
-<?php 
+<?php
 include("inc/header.php");
-
-include("inc/menu-scroll.php");
 ?>
 
+	<!-- Gallery -->
+    <link rel="stylesheet" type="text/css" href="<?php echo URL_PLUGINS;?>Gallery/css/style.css"/>
+    <script src="<?php echo URL_PLUGINS;?>Gallery/js/modernizr.custom.70736.js"></script>
+    <noscript><link rel="stylesheet" type="text/css" href="<?php echo URL_PLUGINS;?>Gallery/css/noJS.css"/></noscript>
+    <!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+    
+</head>
 
+<body>
+
+<?php
+include("inc/menu-scroll.php");
+?>
 
 <div class="content">
 	<h1 style="margin-bottom: 55px;">
