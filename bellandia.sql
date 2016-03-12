@@ -64,10 +64,10 @@ CREATE TABLE IF NOT EXISTS `rooms` (
 --
 
 INSERT INTO `rooms` (`id`, `name`, `img`, `features`) VALUES
-(1, 'DOBLE O TWIN', 'dobleotwin.png', '[''Acceso Minusválidos'', ''Tienen 1 cuarto y un baño'', ''Cama Full o twin'', ''Terraza con hermosa vista a la selva'',\r\n			''Capacidad máxima 2 personas'', ''Baño Privado'', ''Agua caliente'', ''Terraza con vista a la selva y a la cordillera'']'),
-(2, 'CABAÑA VERDE', 'cabanaverde.png', '[''Acceso Minusválidos'', ''Tienen 1 cuarto y un baño'', ''Cama Full o twin'', ''Terraza con hermosa vista a la selva'', ''Capacidad máxima 2 personas'', ''Baño Privado'', ''Agua caliente'', ''Terraza con vista a la selva y a la cordillera'']'),
-(3, 'CABAÑA VERDE AMPLIA', 'cabanaverdeamplia.png', '[''Acceso Minusválidos'', ''Tienen 1 cuarto y un baño'', ''Cama Full o twin'', ''Terraza con hermosa vista a la selva'', ''Capacidad máxima 2 personas'', ''Baño Privado'', ''Agua caliente'', ''Terraza con vista a la selva y a la cordillera'']'),
-(4, 'CABAÑA 2 HABITACIONES', 'cabanadoshabitaciones.png', '[''Acceso Minusválidos'', ''Tienen 1 cuarto y un baño'', ''Cama Full o twin'', ''Terraza con hermosa vista a la selva'', ''Capacidad máxima 2 personas'', ''Baño Privado'', ''Agua caliente'', ''Terraza con vista a la selva y a la cordillera'']');
+(1, 'DOBLE O TWIN', 'dobleotwin.png', '["Acceso Minusv\u00c3\u00a1lidos","Tienen 1 cuarto y un ba\u00c3\u00b1o","Cama Full o twin","Terraza con hermosa vista a la selva","Capacidad m\u00c3\u00a1xima 2 personas","Ba\u00c3\u00b1o Privado","Agua caliente","Terraza con vista a la selva y a la cordillera"]'),
+(2, 'CABAÑA VERDE', 'cabanaverde.png', '["Acceso Minusv\u00c3\u00a1lidos","Tienen 1 cuarto y un ba\u00c3\u00b1o","Cama Full o twin","Terraza con hermosa vista a la selva","Capacidad m\u00c3\u00a1xima 2 personas","Ba\u00c3\u00b1o Privado","Agua caliente","Terraza con vista a la selva y a la cordillera"]'),
+(3, 'CABAÑA VERDE AMPLIA', 'cabanaverdeamplia.png', '["Acceso Minusv\u00c3\u00a1lidos","Tienen 1 cuarto y un ba\u00c3\u00b1o","Cama Full o twin","Terraza con hermosa vista a la selva","Capacidad m\u00c3\u00a1xima 2 personas","Ba\u00c3\u00b1o Privado","Agua caliente","Terraza con vista a la selva y a la cordillera"]'),
+(4, 'CABAÑA 2 HABITACIONES', 'cabanadoshabitaciones.png', '["Acceso Minusv\u00c3\u00a1lidos","Tienen 1 cuarto y un ba\u00c3\u00b1o","Cama Full o twin","Terraza con hermosa vista a la selva","Capacidad m\u00c3\u00a1xima 2 personas","Ba\u00c3\u00b1o Privado","Agua caliente","Terraza con vista a la selva y a la cordillera"]');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
