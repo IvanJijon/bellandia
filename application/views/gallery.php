@@ -2,10 +2,6 @@
 include("inc/header.php");
 
 include("inc/menu-scroll.php");
-
-$array = array("Acceso Minusválidos", "Tienen 1 cuarto y un baño", "Cama Full o twin", "Terraza con hermosa vista a la selva","Capacidad máxima 2 personas", "Baño Privado", "Agua caliente", "Terraza con vista a la selva y a la cordillera");
-
-echo json_encode_special_chars($array);
 ?>
 
 
