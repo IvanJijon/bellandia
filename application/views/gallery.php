@@ -16,29 +16,116 @@ include("inc/header.php");
 include("inc/menu-scroll.php");
 ?>
 
-<div class="content">
+<div class="content"> 
 	<h1 style="margin-bottom: 55px;">
-		El TITULO
+		GALERIA
 	</h1>
-
-				<div class="description-content-row clear-fix">
-					<div class="img-panel left"><img src="<?php echo asset_url(); ?>img/activities/1.png" alt="SENDEROS"/></div>
-					<div class="description-panel right">
-						<h2>SENDEROS</h2>
-
-						<p>Dentro de 30 hectáreas de bosque se distribuyen los senderos, mostrando la vegetación nativa de la zona, su riqueza en plantas medicinales, flores silvestres, orquídeas y aves.</p>
-					</div>
-				</div>
-
-				<div class="description-content-row clear-fix">
-					<div class="description-panel left">
-						<h2>CASCADA</h2>
-
-						<p>La confluencia de innumerables arroyos naturales se desborda en una cascada de aproximadamente 60 metros. Disfrutar de la energía del entorno, la brisa y la pureza de sus aguas es una experiencia inolvidable. Se puede acceder a través de un sendero natural en declive que tiene 365 gradas o a través de un sendero simple de 10 minutos de caminata.</p>
-					</div>
-					<div class="img-panel right"><img src="<?php echo asset_url(); ?>img/activities/1.png" alt="CASCADA"/></div>
-				</div>
 </div>
+
+		<div class="container">
+			<div class="main">
+				<div class="gamma-container gamma-loading" id="gamma-container">
+					
+					
+					<?php
+					$dir    = './plugins/Gallery/images/fotos/';
+					$fotos = scandir($dir);		
+					$fotos = array_diff($fotos, array('.', '..'));
+					//dump($fotos);	
+					?>
+					<ul class="gamma-gallery">
+						<?php foreach ($fotos as $foto){ ?>
+						<li>
+							<div data-alt="no_foto" data-description="" data-max-width="1800" data-max-height="1350">
+								<div data-src="<?php echo URL_PLUGINS;?>Gallery/images/fotos/<?php echo $foto;?>" data-min-width="1300"></div>
+								<div data-src="<?php echo URL_PLUGINS;?>Gallery/images/fotos/<?php echo $foto;?>" data-min-width="1000"></div>
+								<div data-src="<?php echo URL_PLUGINS;?>Gallery/images/fotos/<?php echo $foto;?>" data-min-width="700"></div>
+								<div data-src="<?php echo URL_PLUGINS;?>Gallery/images/fotos/<?php echo $foto;?>" data-min-width="300"></div>
+								<div data-src="<?php echo URL_PLUGINS;?>Gallery/images/fotos/<?php echo $foto;?>" data-min-width="200"></div>
+								<div data-src="<?php echo URL_PLUGINS;?>Gallery/images/fotos/<?php echo $foto;?>" data-min-width="140"></div>
+								<div data-src="<?php echo URL_PLUGINS;?>Gallery/images/fotos/<?php echo $foto;?>"></div>
+								<noscript>
+									<img src="<?php echo URL_PLUGINS;?>Gallery/images/fotos/<?php echo $foto;?>" alt="no_foto"/>
+								</noscript>
+							</div>
+						</li>
+						
+						<?php } ?>
+						
+					</ul>
+
+					<div class="gamma-overlay"></div>
+
+					
+
+				</div>								
+			</div><!--/main-->
+		</div><!--/container-->
+				
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="<?php echo URL_PLUGINS;?>Gallery/js/jquery.masonry.min.js"></script>
+<script src="<?php echo URL_PLUGINS;?>Gallery/js/jquery.history.js"></script>
+<script src="<?php echo URL_PLUGINS;?>Gallery/js/js-url.min.js"></script>
+<script src="<?php echo URL_PLUGINS;?>Gallery/js/jquerypp.custom.js"></script>
+<script src="<?php echo URL_PLUGINS;?>Gallery/js/gamma.js"></script>
+<script type="text/javascript">
+	
+	$(function() {
+
+		var GammaSettings = {
+				// order is important!
+				viewport : [ {
+					width : 1200,
+					columns : 5
+				}, {
+					width : 900,
+					columns : 4
+				}, {
+					width : 500,
+					columns : 3
+				}, { 
+					width : 320,
+					columns : 2
+				}, { 
+					width : 0,
+					columns : 2
+				} ]
+		};
+
+		Gamma.init( GammaSettings, fncallback );
+
+
+		// Example how to add more items (just a dummy):
+
+		var page = 0,
+			items = ['<li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xxxlarge/<?php echo $foto;?>" data-min-width="1300"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xxlarge/<?php echo $foto;?>" data-min-width="1000"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xlarge/<?php echo $foto;?>" data-min-width="700"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/large/<?php echo $foto;?>" data-min-width="300"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/medium/<?php echo $foto;?>" data-min-width="200"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/small/<?php echo $foto;?>" data-min-width="140"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xsmall/<?php echo $foto;?>"></div><noscript><img src="<?php echo URL_PLUGINS;?>Gallery/images/xsmall/<?php echo $foto;?>" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xxxlarge/<?php echo $foto;?>" data-min-width="1300"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xxlarge/<?php echo $foto;?>" data-min-width="1000"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xlarge/<?php echo $foto;?>" data-min-width="700"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/large/<?php echo $foto;?>" data-min-width="300"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/medium/<?php echo $foto;?>" data-min-width="200"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/small/<?php echo $foto;?>" data-min-width="140"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xsmall/<?php echo $foto;?>"></div><noscript><img src="<?php echo URL_PLUGINS;?>Gallery/images/xsmall/<?php echo $foto;?>" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xxxlarge/<?php echo $foto;?>" data-min-width="1300"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xxlarge/<?php echo $foto;?>" data-min-width="1000"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xlarge/<?php echo $foto;?>" data-min-width="700"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/large/<?php echo $foto;?>" data-min-width="300"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/medium/<?php echo $foto;?>" data-min-width="200"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/small/<?php echo $foto;?>" data-min-width="140"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xsmall/<?php echo $foto;?>"></div><noscript><img src="<?php echo URL_PLUGINS;?>Gallery/images/xsmall/<?php echo $foto;?>" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xxxlarge/<?php echo $foto;?>" data-min-width="1300"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xxlarge/<?php echo $foto;?>" data-min-width="1000"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xlarge/<?php echo $foto;?>" data-min-width="700"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/large/<?php echo $foto;?>" data-min-width="300"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/medium/<?php echo $foto;?>" data-min-width="200"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/small/<?php echo $foto;?>" data-min-width="140"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xsmall/<?php echo $foto;?>"></div><noscript><img src="<?php echo URL_PLUGINS;?>Gallery/images/xsmall/<?php echo $foto;?>" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xxxlarge/<?php echo $foto;?>" data-min-width="1300"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xxlarge/<?php echo $foto;?>" data-min-width="1000"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xlarge/<?php echo $foto;?>" data-min-width="700"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/large/<?php echo $foto;?>" data-min-width="300"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/medium/<?php echo $foto;?>" data-min-width="200"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/small/<?php echo $foto;?>" data-min-width="140"></div><div data-src="<?php echo URL_PLUGINS;?>Gallery/images/xsmall/<?php echo $foto;?>"></div><noscript><img src="<?php echo URL_PLUGINS;?>Gallery/images/xsmall/<?php echo $foto;?>" alt="img03"/></noscript></div></li>']
+
+		function fncallback() {
+
+			$( '#loadmore' ).show().on( 'click', function() {
+
+				++page;
+				var newitems = items[page-1]
+				if( page <= 1 ) {
+					
+					Gamma.add( $( newitems ) );
+
+				}
+				if( page === 1 ) {
+
+					$( this ).remove();
+
+				}
+
+			} );
+
+		}
+
+	});
+
+</script>
 
 
 

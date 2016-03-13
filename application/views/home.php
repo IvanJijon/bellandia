@@ -59,7 +59,7 @@ include("inc/header.php");
             <a href="#">GALERÍA DE IMÁGENES</a>
         </div>
         <div class="img-panel right">
-            <img src="<?php echo asset_url(); ?>img/home/bienvenidoabellandia.png" alt="Bienvenido a Bellandia"/>
+            <img src="<?php echo asset_url(); ?>img/home/bienvenido_a_bellandia.png" alt="Bienvenido a Bellandia"/>
         </div>
     </div>
 
