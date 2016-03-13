@@ -49,7 +49,6 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['port'] = '8889';
 $db['default']['username'] = 'bellandia';
 $db['default']['password'] = 'bellandia123';
 $db['default']['database'] = 'bellandia';
