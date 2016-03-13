@@ -23,11 +23,7 @@ html { height: 100%; }
 }
 
 body {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
     background: #fff;
-    font-weight: 300;
-    font-size: 15px;
-    color: #333;
     -webkit-font-smoothing: antialiased;
     overflow-y: scroll;
     overflow-x: hidden;

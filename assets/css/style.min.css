@@ -56,15 +56,17 @@ body {
 }
 h2 {
     font-size: 14px;
-    font-weight: 400
+    font-weight: 400;
+    color: #023832;
 }
 h1 {
     font-size: 30px;
     font-weight: 800;
-    letter-spacing: 1.4px
+    letter-spacing: 1.4px;
+    color: #023832;
 }
 a {
-    color: #0a2f29
+    color: #0a2f29;
 }
 #home-header {
     min-width: 940px;
