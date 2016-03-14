@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Ven 11 Mars 2016 à 17:33
+-- Généré le :  Lun 14 Mars 2016 à 10:17
 -- Version du serveur :  5.6.17
 -- Version de PHP :  5.5.12
 
@@ -19,8 +19,6 @@ SET time_zone = "+00:00";
 --
 -- Base de données :  `bellandia`
 --
-
-USE bellandia;
 
 -- --------------------------------------------------------
 
@@ -66,10 +64,10 @@ CREATE TABLE IF NOT EXISTS `rooms` (
 --
 
 INSERT INTO `rooms` (`id`, `name`, `img`, `features`) VALUES
-(1, 'DOBLE O TWIN', 'dobleotwin.png', '["Acceso Minusv\u00c3\u00a1lidos","Tienen 1 cuarto y un ba\u00c3\u00b1o","Cama Full o twin","Terraza con hermosa vista a la selva","Capacidad m\u00c3\u00a1xima 2 personas","Ba\u00c3\u00b1o Privado","Agua caliente","Terraza con vista a la selva y a la cordillera"]'),
-(2, 'CABAÑA VERDE', 'cabanaverde.png', '["Acceso Minusv\u00c3\u00a1lidos","Tienen 1 cuarto y un ba\u00c3\u00b1o","Cama Full o twin","Terraza con hermosa vista a la selva","Capacidad m\u00c3\u00a1xima 2 personas","Ba\u00c3\u00b1o Privado","Agua caliente","Terraza con vista a la selva y a la cordillera"]'),
-(3, 'CABAÑA VERDE AMPLIA', 'cabanaverdeamplia.png', '["Acceso Minusv\u00c3\u00a1lidos","Tienen 1 cuarto y un ba\u00c3\u00b1o","Cama Full o twin","Terraza con hermosa vista a la selva","Capacidad m\u00c3\u00a1xima 2 personas","Ba\u00c3\u00b1o Privado","Agua caliente","Terraza con vista a la selva y a la cordillera"]'),
-(4, 'CABAÑA 2 HABITACIONES', 'cabanadoshabitaciones.png', '["Acceso Minusv\u00c3\u00a1lidos","Tienen 1 cuarto y un ba\u00c3\u00b1o","Cama Full o twin","Terraza con hermosa vista a la selva","Capacidad m\u00c3\u00a1xima 2 personas","Ba\u00c3\u00b1o Privado","Agua caliente","Terraza con vista a la selva y a la cordillera"]');
+(1, 'DOBLE O TWIN', 'dobleotwin.png', '["Acceso Minusv\\u00e1lidos","Tienen 1 cuarto y un ba\\u00f1o","Cama Full o twin","Terraza con hermosa vista a la selva","Capacidad m\\u00e1xima 2 personas","Ba\\u00f1o Privado","Agua caliente","Terraza con vista a la selva y a la cordillera"]'),
+(2, 'CABAÑA VERDE', 'cabanaverde.png', '["Acceso Minusv\\u00e1lidos","Tienen 1 cuarto y un ba\\u00f1o","Cama Full o twin","Terraza con hermosa vista a la selva","Capacidad m\\u00e1xima 2 personas","Ba\\u00f1o Privado","Agua caliente","Terraza con vista a la selva y a la cordillera"]'),
+(3, 'CABAÑA VERDE AMPLIA', 'cabanaverdeamplia.png', '["Acceso Minusv\\u00e1lidos","Tienen 1 cuarto y un ba\\u00f1o","Cama Full o twin","Terraza con hermosa vista a la selva","Capacidad m\\u00e1xima 2 personas","Ba\\u00f1o Privado","Agua caliente","Terraza con vista a la selva y a la cordillera"]'),
+(4, 'CABAÑA 2 HABITACIONES', 'cabanadoshabitaciones.png', '["Acceso Minusv\\u00e1lidos","Tienen 1 cuarto y un ba\\u00f1o","Cama Full o twin","Terraza con hermosa vista a la selva","Capacidad m\\u00e1xima 2 personas","Ba\\u00f1o Privado","Agua caliente","Terraza con vista a la selva y a la cordillera"]');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
