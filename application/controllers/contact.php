@@ -54,12 +54,12 @@ class Contact extends CI_Controller {
 			$this->email->message($message);
 
 			if ($this->email->send()) {
-				$data['message_display'] = 'Email Successfully Send !';
+				$data['message_display'] = 'Gracias, nos pondremos en contacto en breves instantes.';
 			} else {
 				$data['message_display'] = '<p class="error_msg">Invalid Gmail Account or Password !</p>';
 				echo $this->email->print_debugger();
 			}
-			$this->load->view('contact', $data);
+			$this->load->view('contact_success', $data);
 		}
 	}
 }

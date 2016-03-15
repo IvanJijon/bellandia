@@ -602,41 +602,61 @@ a.button:before {
     margin-bottom: 30px
 }
 #contact{
-    text-align: center;
-
-    }
-#contact-input01{
-    border: solid 1px ##0a2f29;
-    display: inline-block;
+	width : 444px;
+    margin-left: auto;
+    margin-right: auto;
 }
-#contact-input02{
-    border: solid 1px ##0a2f29;
-    width: 200px;
-    height:30px;
+#contact-input-1{
     display: inline-block;
+	margin-right: 20px;
+	width: 200px;
+	height: 30px;
+}
+#contact-input-2{
+    display: inline-block;
+	margin-right: 20px;
+	width: 200px;
+	height: 30px;
+}
+#name{
+	width: 200px;
+	height: 30px;
+}
+#email{
+	width: 200px;
+	height: 30px;
 }
 #contact-mensaje{
-    border: solid 1px ##0a2f29;
-    width: 200px;
-    height:30px;
     display: block;
     margin-top: 20px;
-}
-#contact-input01 input{
-    width: 200px;
-    height: 30px;
-    margin-right: 20px;
-    text-align: left;
-}
-#contact-input02 input{
-    width: 200px;
-    height: 30px;
 }
 .contact-input-label{
     display: block;
     font-size: 14px;
     color:#0a2f29;
+	margin-bottom: 5px;
 }
+#contact-button {
+	background : white;
+	vertical-align: middle;
+	border: 1px solid #023832;
+	color: #023832;
+	display: block;
+	font-size: 13px;
+	height: 100%;
+	line-height: 38px;
+	letter-spacing: 1px;
+	margin-top: 20px;
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+	
+}
+.msg{
+    font-size: 14px;
+    color: #0a2f29
+}
+
 #footer {
     min-width: 940px;
     height: 86px;
