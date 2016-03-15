@@ -37,7 +37,7 @@ include("inc/menu-scroll.php");
 
 			<div id="contact-mensaje">
 				<label class="contact-input-label">Su mensaje＊</label>
-				<textarea id="text" cols="51" name="message" rows="10" placeholder="Escriba aquí su mensaje." required></textarea>
+				<textarea id="text" cols="58" name="message" rows="10" placeholder="Escriba aquí su mensaje." required></textarea>
 			</div>
 
 			<input id="contact-button" type="submit" name="submit" value="ENVIAR" class='submit' /> </div>

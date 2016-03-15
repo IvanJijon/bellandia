@@ -602,7 +602,7 @@ a.button:before {
     margin-bottom: 30px
 }
 #contact{
-	width : 444px;
+	width : 445px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -628,7 +628,11 @@ a.button:before {
 }
 #contact-mensaje{
     display: block;
-    margin-top: 20px;
+    margin-top: 20px;	
+}
+#text{
+	max-width: 423px;	
+	resize: none;
 }
 .contact-input-label{
     display: block;
