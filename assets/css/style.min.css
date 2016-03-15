@@ -54,9 +54,14 @@ h2 {
 body {
     font-family: Geomanist, sans-serif
 }
-h2 {
+h3 {
     font-size: 14px;
     font-weight: 400;
+    color: #023832;
+}
+h2 {
+    font-size: 14px;
+    font-weight: 600;
     color: #023832;
 }
 h1 {
@@ -595,6 +600,42 @@ a.button:before {
 .description-image-row a img {
     width: 300px;
     margin-bottom: 30px
+}
+#contact{
+    text-align: center;
+
+    }
+#contact-input01{
+    border: solid 1px ##0a2f29;
+    display: inline-block;
+}
+#contact-input02{
+    border: solid 1px ##0a2f29;
+    width: 200px;
+    height:30px;
+    display: inline-block;
+}
+#contact-mensaje{
+    border: solid 1px ##0a2f29;
+    width: 200px;
+    height:30px;
+    display: block;
+    margin-top: 20px;
+}
+#contact-input01 input{
+    width: 200px;
+    height: 30px;
+    margin-right: 20px;
+    text-align: left;
+}
+#contact-input02 input{
+    width: 200px;
+    height: 30px;
+}
+.contact-input-label{
+    display: block;
+    font-size: 14px;
+    color:#0a2f29;
 }
 #footer {
     min-width: 940px;

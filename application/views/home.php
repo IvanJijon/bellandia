@@ -47,7 +47,7 @@ include("inc/header.php");
 <div id="home-content">
     <div class="row-welcome clear-fix">
         <div class="description-panel left">
-            <h2>BIENVENIDO A</h2>
+            <h3>BIENVENIDO A</h3>
 
             <h1>BELLANDIA</h1>
 
@@ -64,7 +64,7 @@ include("inc/header.php");
     </div>
 
     <div class="row-header">
-        <h2>DISFRUTE DE NUESTRAS</h2>
+        <h3>DISFRUTE DE NUESTRAS</h3>
 
         <h1>HABITACIONES</h1>
     </div>
@@ -75,7 +75,7 @@ include("inc/header.php");
         </div>
 
         <div class="description-panel right">
-            <h2>DOBLE O TWIN</h2>
+            <h3>DOBLE O TWIN</h3>
 
             <p>Acceso Minusválidos Tienen 1 cuartos y un baño. Cama Full o twin. Terraza con hermosa vista a la
                 selva. Capacidad máxima 2 personas.</p>
@@ -86,7 +86,7 @@ include("inc/header.php");
 
     <div class="row clear-fix">
         <div class="description-panel left">
-            <h2>CABAÑA 2 HABITACIONES</h2>
+            <h3>CABAÑA 2 HABITACIONES</h3>
 
             <p>Tienen 2 cuartos y un baño. En un cuarto hay una cama full y en el otro 2 camas twin. Terraza con hermosa
                 vista a la selva.  Capacidad máxima 4 personas.</p>
@@ -105,7 +105,7 @@ include("inc/header.php");
         </div>
 
         <div class="description-panel right">
-            <h2>CABAÑA VERDE AMPLIA</h2>
+            <h3>CABAÑA VERDE AMPLIA</h3>
 
             <p>Tecnología avanzada, ecológica, la cobertura de tierra y vegetación le proporcionan el efecto de
                 bioclimatización. Únicas en el país. 2 camas full 1 amplio sofá TV satelital Terraza con hermosa vista a
@@ -117,7 +117,7 @@ include("inc/header.php");
 
     <div class="row clear-fix">
         <div class="description-panel left">
-            <h2>CABAÑA VERDE</h2>
+            <h3>CABAÑA VERDE</h3>
 
             <p>Tecnología avanzada, ecológica, la cobertura de tierra y vegetación le proporcionan el efecto de
                 bioclimatización. Únicas en el país. Agua caliente con calefacción solar. 1 cama full y una cama twin

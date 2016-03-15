@@ -50,12 +50,12 @@
 
 .gamma-description {
 	background: #fff;
-	background: rgba(255, 255, 255, 0.6);
+	background: rgba(2, 56, 50, 0.8);
 	position: absolute;
-	top: 20px;
-	left: 20px;
-	bottom: 20px;
-	right: 20px;
+	top: 3px;
+	left: 3px;
+	bottom: 3px;
+	right: 3px;
 	text-align: center;
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);

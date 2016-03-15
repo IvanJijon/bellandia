@@ -43,7 +43,7 @@ echo "Connected successfully";
 				<div class="description-content-row clear-fix">
 					<div class="img-panel left"><img src="<?php echo asset_url(); ?>img/activities/<?php echo $activity->img ?>" alt="<?php echo $activity->name ?>"/></div>
 					<div class="description-panel right">
-						<h2><?php echo $activity->name ?></h2>
+						<h3><?php echo $activity->name ?></h3>
 
 						<p><?php echo $activity->description ?></p>
 					</div>
@@ -54,7 +54,7 @@ echo "Connected successfully";
 		?>
 				<div class="description-content-row clear-fix">
 					<div class="description-panel left">
-						<h2><?php echo $activity->name ?></h2>
+						<h3><?php echo $activity->name ?></h3>
 
 						<p><?php echo $activity->description ?></p>
 					</div>
