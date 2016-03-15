@@ -5,7 +5,7 @@
 		<a href="/activities">ACTIVIDADES</a>		
 		<a href="/gallery">GALERIA</a>
 		<a href="/contact">CONTÁCTENOS</a>
-		<a href="#">COMO LLEGAR</a>
+		<a href="/coordinates">COMO LLEGAR</a>
 		<a href="#" class="button">RESERVAR</a>
 	</div>
 </div>
