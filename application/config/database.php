@@ -48,7 +48,7 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = '192.168.1.142';
+$db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'bellandia';
 $db['default']['password'] = 'bellandia123';
 $db['default']['database'] = 'bellandia';
