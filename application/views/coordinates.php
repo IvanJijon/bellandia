@@ -26,6 +26,7 @@ include("inc/menu-scroll.php");
 		Dirección : Km 21, Vía Puyo Km 6 Vía a Boayacu, Tena, Ecuador
 		Teléfonos : +593996009781
 		Mail : demo@bellandia.com
+		</div>
 	</div>
 
 </div>
