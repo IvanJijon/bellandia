@@ -631,8 +631,11 @@ a.button:before {
     margin-top: 20px;	
 }
 #text{
-	max-width: 423px;	
+	font-family: 'geomanist';
+    width: 415px;	
 	resize: none;
+    padding: 10px 0 0 10px;
+    font-size: 14px;
 }
 .contact-input-label{
     display: block;
@@ -641,7 +644,8 @@ a.button:before {
 	margin-bottom: 5px;
 }
 #contact-button {
-	background : white;
+	font-family: 'geomanist';
+    background : white;
 	vertical-align: middle;
 	border: 1px solid #023832;
 	color: #023832;
@@ -654,16 +658,40 @@ a.button:before {
 	text-align: center;
 	text-decoration: none;
 	width: 200px;
+    padding: 0;
+    cursor: pointer;
 	
 }
+#contact-button:hover {
+    background : #023832;
+    vertical-align: middle;
+    border: 1px solid #023832;
+    color: white;
+}
+
 .msg{
     font-size: 14px;
-    color: #0a2f29
+    color: #0a2f29;
 }
 
 #footer {
     min-width: 940px;
     height: 86px;
     background: #023832;
-    color: #0a2f29
+    color: #0a2f29;
+}
+#footer-content{
+    min-width: 940px;
+    height: 86px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+}
+#footer-title{
+    text-align: center;
+    font-weight: 500;
+}
+strong{
+    font-weight: 500;
 }
