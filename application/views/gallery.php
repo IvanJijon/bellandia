@@ -127,9 +127,6 @@ include("inc/menu-scroll.php");
 
 </script>
 
+</body>
 
-
-
-<?php 
-include("inc/home-footer.php");
-?>
+</html>

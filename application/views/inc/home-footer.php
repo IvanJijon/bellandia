@@ -1,7 +1,6 @@
 <div id="home-footer">
 	<div class="contact">
-		<h2>CONECTA CON NOSOTROS</h2>
-
+		<h3>CONECTA CON NOSOTROS</h3>
 		<h1>SÍGUENOS</h1>
 
 		<div class="social">
@@ -13,7 +12,6 @@
 	<div id="footer-content">
 		<div id="footer-title">
 			BELLANDIA LODGE
-			El Puyo - Ecuador
 		</div>
 		<div id="information"> 
 			<strong>Dirección :</strong> Km 21, Vía Puyo Km 6 Vía a Boayacu, Tena, Ecuador</br>
