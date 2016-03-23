@@ -6,10 +6,9 @@ include("inc/header.php");
   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
   <script>
   $(function() {
-    $( "#datepicker-arrival" ).datepicker();
-  });
-  $(function() {
-    $( "#datepicker-departure" ).datepicker();
+    $( "#datepicker-arrival" ).datepicker({ dateFormat: 'dd/mm/yy' });
+  
+    $( "#datepicker-departure" ).datepicker({ dateFormat: 'dd/mm/yy' });
   });
   </script>
 </head>
