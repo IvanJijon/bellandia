@@ -4,11 +4,10 @@ class Reserve extends CI_Controller {
 
 	public function index()
 	{
-
 		// Cargar la vista	
 		$this->load->view('reserve');
 	}
 }
 
-/* End of file activities.php */
-/* Location: ./application/controllers/activities.php */
+/* End of file reserve.php */
+/* Location: ./application/controllers/reserve.php */
