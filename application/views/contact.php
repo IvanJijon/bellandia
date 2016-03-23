@@ -40,17 +40,6 @@ include("inc/menu-scroll.php");
 
 		</form>
 	</div>
-		
-
-	<!-- <div id="contact">
-		<h3>
-			BELLANDIA LODGE
-		</h3>
-		<div> El Puyo - Ecuador
-		Dirección : Km 21 vía Puyo-Tena y 6 Km vía a Boayacu, Puyo, Ecuador
-		Teléfonos : +593980690699 +593996009781 +593987034034
-		Mail : bellandialodge@gmail.com
-	</div> -->
 
 </div>
 

@@ -29,16 +29,16 @@ include("inc/menu-scroll.php");
 		<?php if (isset($message_display)) { echo $message_display; } ?>
 	</div>
 		
-		<form id="contact-form" action="http://localhost/contact/send_mail" method="post" accept-charset="utf-8">
+		<form id="contact-form" action="http://localhost/reserve/send_mail_reserve" method="post" accept-charset="utf-8">
 			
 			<div id="date">
 				<div class="contact-input">
 					<label class="label">Fecha de entrada</label>
-					<input type="text" id="datepicker-arrival">
+					<input type="text" name="datepicker-arrival" id="datepicker-arrival">
 				</div>
 				<div class="contact-input">
 					<label class="label">Fecha de salida</label>
-					<input type="text" id="datepicker-departure">
+					<input type="text" name="datepicker-departure" id="datepicker-departure">
 				</div>
 			</div>
 
@@ -49,7 +49,7 @@ include("inc/menu-scroll.php");
 			
 			<div class="contact-input">
 				<label class="label">Apellido＊</label>
-				<input type="text" class="input" name="name" required>
+				<input type="text" class="input" name="surname" required>
 			</div>
 			
 			<div class="contact-input">
@@ -58,17 +58,17 @@ include("inc/menu-scroll.php");
 			</div>
 
 			<div class="contact-input">
-				<label class="label">Número de adultos</label>
-				<input type="text" class="input" name="user_email" required>
+				<label class="label">Número de adultos*</label>
+				<input type="text" class="input" name="adults" required>
 			</div>
 
 			<div class="contact-input">
 				<label class="label">Número de niños</label>
-				<input type="text" class="input" name="user_email" required>
+				<input type="text" class="input" name="kids">
 			</div>
 			
 			<div id="contact-mensaje">
-				<label class="label">Su mensaje＊</label>
+				<label class="label">Precisiones＊</label>
 				<textarea id="text" cols="58" name="message" rows="10" placeholder="Escriba aquí su mensaje." required></textarea>
 			</div>
 
