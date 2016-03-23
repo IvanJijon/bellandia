@@ -6,6 +6,6 @@
 		<a href="/gallery">GALERIA</a>
 		<a href="/contact">CONTÁCTENOS</a>
 		<a href="/coordinates">COMO LLEGAR</a>
-		<a href="#" class="button">RESERVAR</a>
+		<a href="/reserve" class="button">RESERVAR</a>
 	</div>
 </div>

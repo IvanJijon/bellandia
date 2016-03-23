@@ -59,7 +59,6 @@ h4 {
     font-weight: 400;
     color: #023832;
     opacity:0.7;
-    margin:0;
 }
 h3 {
     font-size: 14px;
@@ -77,6 +76,7 @@ h1 {
     font-weight: 800;
     letter-spacing: 1.4px;
     color: #023832;
+    margin:0;
 }
 a {
     color: #0a2f29;
@@ -608,26 +608,19 @@ a.button:before {
     width: 300px;
     margin-bottom: 30px
 }
-#contact{
+#contact-form{
 	width : 445px;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 0 auto 60px auto;
+    margin: 0 auto 60px 256px;
 }
 
-#contact-input-1{
+.contact-input{
     display: inline-block;
-	margin-right: 20px;
+	margin: 20px 20px 0 0;
 	width: 200px;
 	height: 30px;
 }
-#contact-input-2{
-    display: inline-block;
-	margin-right: 20px;
-	width: 200px;
-	height: 30px;
-}
-#name{
+
+.input{
 	width: 200px;
 	height: 30px;
 }
@@ -646,12 +639,24 @@ a.button:before {
     padding: 10px 0 0 10px;
     font-size: 14px;
 }
-.contact-input-label{
+.label{
     display: block;
     font-size: 14px;
     color:#0a2f29;
-	margin-bottom: 5px;
+    margin-bottom: 5px;
 }
+#datepicker-arrival{
+    font-family: 'geomanist';
+    width: 200px;
+    height: 30px;
+}
+
+#datepicker-departure{
+    font-family: 'geomanist';
+    width: 200px;
+    height: 30px;
+}
+
 #contact-button {
 	font-family: 'geomanist';
     background : white;

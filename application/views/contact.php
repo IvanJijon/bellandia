@@ -12,7 +12,7 @@ include("inc/menu-scroll.php");
 
 
 <div class="content"> 
-	<h1 style="margin-bottom: 55px;">
+	<h1>
 		CONTÁCTENOS
 	</h1>
 	<div id="contact">
@@ -21,18 +21,18 @@ include("inc/menu-scroll.php");
 		</div>
 		<form id="contact-form" action="http://localhost/contact/send_mail" method="post" accept-charset="utf-8">
 			
-			<div id="contact-input-1">
-				<label class="contact-input-label">Nombre＊</label>
-				<input type="text" id="name" name="name" required>
+			<div class="contact-input">
+				<label class="label">Nombre＊</label>
+				<input type="text" class="input" name="name" required>
 			</div>
 
-			<div id="contact-input-2">
-				<label class="contact-input-label">Correo electrónico＊</label>
-				<input type="text" id="email" name="user_email" required>
+			<div class="contact-input">
+				<label class="label">Correo electrónico＊</label>
+				<input type="text" class="input" name="user_email" required>
 			</div>
 
 			<div id="contact-mensaje">
-				<label class="contact-input-label">Su mensaje＊</label>
+				<label class="label">Su mensaje＊</label>
 				<textarea id="text" cols="58" name="message" rows="10" placeholder="Escriba aquí su mensaje." required></textarea>
 			</div>
 
@@ -47,9 +47,9 @@ include("inc/menu-scroll.php");
 			BELLANDIA LODGE
 		</h3>
 		<div> El Puyo - Ecuador
-		Dirección : Km 21, Vía Puyo Km 6 Vía a Boayacu, Tena, Ecuador
-		Teléfonos : +593996009781
-		Mail : demo@bellandia.com
+		Dirección : Km 21 vía Puyo-Tena y 6 Km vía a Boayacu, Puyo, Ecuador
+		Teléfonos : +593980690699 +593996009781 +593987034034
+		Mail : bellandialodge@gmail.com
 	</div> -->
 
 </div>
