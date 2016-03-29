@@ -1,6 +1,6 @@
 <div id="menu-scroll">
 	<div class="center">
-		<div class="logo"></div>
+		<a href="/home">INICIO</a>
 		<a href="/rooms">HABITACIONES</a>
 		<a href="/activities">ACTIVIDADES</a>		
 		<a href="/gallery">GALERIA</a>
