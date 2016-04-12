@@ -14,9 +14,9 @@
 			BELLANDIA LODGE
 		</div>
 		<div id="information"> 
-			<strong>Dirección :</strong> Km 21, Vía Puyo Km 6 Vía a Boayacu, Tena, Ecuador</br>
-			<strong>Teléfonos :</strong> +593996009781</br>
-			<strong>Mail :</strong> demo@bellandia.com
+			<strong>Dirección :</strong> Km 21 vía Puyo-Tena y 6 Km vía a Boayacu, Puyo, Ecuador</br>
+			<strong>Teléfonos :</strong> +593996009781 +593980690699 +593987034034</br>
+			<strong>Mail :</strong> bellandialodge@gmail.com
 		</div>
 	</div>
 </div>

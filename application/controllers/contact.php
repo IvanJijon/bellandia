@@ -36,9 +36,9 @@ class Contact extends CI_Controller {
 			// SMTP Port - the port that you is required
 			$config['smtp_port'] = 465;
 			// SMTP Username like. (abc@gmail.com)
-			$config['smtp_user'] = 'ivanjijontesting@gmail.com';
+			$config['smtp_user'] = 'bellandialodge@gmail.com';
 			// SMTP Password like (abc***##)
-			$config['smtp_pass'] = 'polytechparis';
+			$config['smtp_pass'] = 'elvirilin1';
 
 			// Load email library and passing configured values to email library
 			$this->load->library('email', $config);
@@ -47,7 +47,7 @@ class Contact extends CI_Controller {
 			// Sender email address
 			$this->email->from($sender_email, $username);
 			// Receiver email address
-			$this->email->to('castro.alfredo00@gmail.com, ivanjijontesting@gmail.com');
+			$this->email->to('azorey@gmail.com, castro.alfredo00@gmail.com, ivanjijontesting@gmail.com');
 			// Subject of email
 			$this->email->subject('Test Contato Bellandia');
 			// Message in email

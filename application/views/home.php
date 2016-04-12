@@ -36,12 +36,12 @@ include("inc/header.php");
 </div>
 
 <div id="home-menu">
-    <a href="/habitaciones">HABITACIONES</a>
-    <a href="/actividades">ACTIVIDADES</a>
-    <a href="#">IMÁGENES</a>
-    <a href="#">CONTÁCTENOS</a>
-    <a href="#">COMO LLEGAR</a>
-    <a href="#" class="button">RESERVAR</a>
+    <a href="<?php echo base_url(); ?>rooms">HABITACIONES</a>
+    <a href="<?php echo base_url(); ?>activities">ACTIVIDADES</a>
+    <a href="<?php echo base_url(); ?>gallery">IMÁGENES</a>
+    <a href="<?php echo base_url(); ?>contact">CONTÁCTENOS</a>
+    <a href="<?php echo base_url(); ?>coordinates">COMO LLEGAR</a>
+    <a href="<?php echo base_url(); ?>reserve" class="button">RESERVAR</a>
 </div>
 
 <div id="home-content">
