@@ -32,7 +32,7 @@ include("inc/header.php");
 
     <div id="logo"></div>
 
-    <a href="#" class="button">DESCUBRE EL VIDEO</a>
+    <a href="https://www.youtube.com/watch?v=JSLiitAFTLM" target="_blank" class="button">DESCUBRE EL VIDEO</a>
 </div>
 
 <div id="home-menu">
