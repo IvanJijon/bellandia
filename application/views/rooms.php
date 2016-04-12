@@ -33,7 +33,7 @@ include("inc/menu-scroll.php");
 
 	<p class="description-header clear-fix">
 		<span class="left"><?php echo $room->name ?></span>
-		<a href="#" class="button right">RESERVA AHORA</a>
+		<a href="<?php echo base_url(); ?>reserve" class="button right">RESERVA AHORA</a>
 	</p>
 
 	<ul class="description-list">

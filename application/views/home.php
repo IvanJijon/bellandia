@@ -56,7 +56,7 @@ include("inc/header.php");
                 la sensación de vivir inmerso en la naturaleza. Su gran cascada, la pureza de su piscina natural y los
                 hermosos senderos hacen de este lugar el sitio perfecto para descansar, disfrutar, conocer y
                 divertirse.</p>
-            <a href="#">GALERÍA DE IMÁGENES</a>
+            <a href="<?php echo base_url(); ?>gallery">GALERÍA DE IMÁGENES</a>
         </div>
         <div class="img-panel right">
             <img src="<?php echo asset_url(); ?>img/home/bienvenido_a_bellandia.png" alt="Bienvenido a Bellandia"/>
@@ -79,8 +79,8 @@ include("inc/header.php");
 
             <p>Acceso Minusválidos Tienen 1 cuartos y un baño. Cama Full o twin. Terraza con hermosa vista a la
                 selva. Capacidad máxima 2 personas.</p>
-            <a href="#">Más información</a>
-            <a href="#" class="button">VER DISPONIBILIDAD</a>
+            <a href="<?php echo base_url(); ?>rooms">Más información</a>
+            <a href="<?php echo base_url(); ?>reserve" class="button">VER DISPONIBILIDAD</a>
         </div>
     </div>
 
@@ -90,8 +90,8 @@ include("inc/header.php");
 
             <p>Tienen 2 cuartos y un baño. En un cuarto hay una cama full y en el otro 2 camas twin. Terraza con hermosa
                 vista a la selva.  Capacidad máxima 4 personas.</p>
-            <a href="#">Más información</a>
-            <a href="#" class="button">VER DISPONIBILIDAD</a>
+            <a href="<?php echo base_url(); ?>rooms/index/4">Más información</a>
+            <a href="<?php echo base_url(); ?>reserve" class="button">VER DISPONIBILIDAD</a>
         </div>
 
         <div class="img-panel right">
@@ -110,8 +110,8 @@ include("inc/header.php");
             <p>Tecnología avanzada, ecológica, la cobertura de tierra y vegetación le proporcionan el efecto de
                 bioclimatización. Únicas en el país. 2 camas full 1 amplio sofá TV satelital Terraza con hermosa vista a
                 la selva Capacidad máxima 4 personas</p>
-            <a href="#">Más información</a>
-            <a href="#" class="button">VER DISPONIBILIDAD</a>
+            <a href="<?php echo base_url(); ?>rooms/index/3">Más información</a>
+            <a href="<?php echo base_url(); ?>reserve" class="button">VER DISPONIBILIDAD</a>
         </div>
     </div>
 
@@ -122,8 +122,8 @@ include("inc/header.php");
             <p>Tecnología avanzada, ecológica, la cobertura de tierra y vegetación le proporcionan el efecto de
                 bioclimatización. Únicas en el país. Agua caliente con calefacción solar. 1 cama full y una cama twin
                 Terraza con hermosa vista a la selva TV satelital. Capacidad máxima 3 personas.</p>
-            <a href="#">Más información</a>
-            <a href="#" class="button">VER DISPONIBILIDAD</a>
+            <a href="<?php echo base_url(); ?>rooms/index/2">Más información</a>
+            <a href="<?php echo base_url(); ?>reserve" class="button">VER DISPONIBILIDAD</a>
         </div>
 
         <div class="img-panel right">
