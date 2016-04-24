@@ -25,15 +25,15 @@ include("inc/header.php");
             </a>
         </div>
 
-        <div class="phone right">+593 (0)99 6 00 97 81</div>
+        <div class="phone right">+593996009781 - +593980690699</div>
 
-        <div class="language right">
+        <!-- <div class="language right">
             <ul>
                 <li>ES</li>
                 <li>EN</li>
                 <li>FR</li>
             </ul>
-        </div>
+        </div> -->
     </div>
 
     <div id="logo"></div>
@@ -44,9 +44,9 @@ include("inc/header.php");
 <div id="home-menu">
     <a href="<?php echo base_url(); ?>rooms">HABITACIONES</a>
     <a href="<?php echo base_url(); ?>activities">ACTIVIDADES</a>
-    <a href="<?php echo base_url(); ?>gallery">IMÁGENES</a>
+    <a href="<?php echo base_url(); ?>gallery">GALERÍA</a>
     <a href="<?php echo base_url(); ?>contact">CONTÁCTENOS</a>
-    <a href="<?php echo base_url(); ?>coordinates">COMO LLEGAR</a>
+    <a href="<?php echo base_url(); ?>coordinates">CÓMO LLEGAR</a>
     <a href="<?php echo base_url(); ?>reserve" class="button">RESERVAR</a>
 </div>
 

@@ -18,7 +18,7 @@ include("inc/menu-scroll.php");
 
 <div class="content"> 
 	<h1 style="margin-bottom: 55px;">
-		GALERIA
+		GALERÍA
 	</h1>
 </div>
 
