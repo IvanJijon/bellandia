@@ -256,8 +256,8 @@ a {
 #home-content .row-welcome .description-panel p {
     margin: 36px 0;
     font-size: 13px;
-    font-weight: 200;
-    opacity: .59
+    font-weight: 400;
+    opacity: .70;
 }
 #home-content .row-welcome .description-panel a {
     display: block;
@@ -312,9 +312,9 @@ a {
     margin: 15px 0;
     color: #023832;
     font-size: 13px;
-    font-weight: 200;
-    opacity: .59;
-    line-height: 16px;
+    font-weight: 400;
+    opacity: .7;
+    line-height: 18px;
 }
 #home-content .row .description-panel a {
     display: block;
