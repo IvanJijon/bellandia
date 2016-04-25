@@ -29,7 +29,7 @@ include("inc/menu-scroll.php");
 	</div>
 		
 		<form id="contact-form" action="http://localhost/reserve/send_mail_reserve" method="post" accept-charset="utf-8">
-			
+		<p>Nuestro deseo es de cuidar el ecosistema particular de Bellandia. Es indispensable que las visitas sean gestionadas cuidadosamente.<br/> <br/>Le pedimos por favor llenar este formulario de pre-reserva y nosotros nos contactaremos con usted.</p>	
 			<div id="date">
 				<div class="contact-input">
 					<label class="label">Fecha de entrada</label>

@@ -567,11 +567,11 @@ a.button:before {
     padding: 30px 0 20px;
     color: #023832;
     font-size: 13px;
-    font-weight: 200;
+    font-weight: 400;
     line-height: 25px;
 }
 .description-list li {
-    opacity: .59;
+    opacity: .7;
 }
 .description-list li:before {
     content: "• ";
@@ -601,9 +601,9 @@ a.button:before {
     margin: 15px 0;
     color: #023832;
     font-size: 13px;
-    font-weight: 200;
-    opacity: .59;
-    line-height: 16px;
+    font-weight: 400;
+    opacity: .7;
+    line-height: 18px;
 }
 .description-content-row .description-panel a {
     display: block;
