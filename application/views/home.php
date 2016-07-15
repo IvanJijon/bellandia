@@ -9,7 +9,7 @@ include("inc/header.php");
 <div id="home-header">
     <div class="layer"></div>
     <video autoplay loop muted poster="<?php echo asset_url(); ?>img/home/background.png" id="video-bg">
-        <source src="<?php echo asset_url(); ?>/videos/bellandia.mp4" type="video/mp4">
+        <source src="<?php echo asset_url(); ?>videos/bellandia.mp4" type="video/mp4">
     </video>
 
     <div id="top-menu" class="clear-fix">
