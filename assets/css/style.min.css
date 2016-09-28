@@ -581,6 +581,7 @@ a.button:before {
     height: 270px;
     margin-bottom: 90px;
 }
+
 .description-content-row .description-panel {
     position: relative;
     width: 380px;
@@ -664,7 +665,17 @@ a.button:before {
 	width: 200px;
 	height: 30px;
 }
-
+.price {
+    font-size: 14px;
+    color: #023832;
+    line-height: 22px;
+    margin:15px 0 15px 0;
+}
+.price p {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+}
 .input{
 	width: 200px;
 	height: 30px;
