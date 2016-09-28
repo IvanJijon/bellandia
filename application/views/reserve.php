@@ -31,21 +31,10 @@ include("inc/menu-scroll.php");
 		
 		<form id="contact-form" action="<?php echo base_url(); ?>reserve/send_mail_reserve" method="post" accept-charset="utf-8">
 		<p>Nuestro deseo es de cuidar el ecosistema particular de Bellandia. Es indispensable que las visitas sean gestionadas cuidadosamente.<br/> <br/>Le pedimos por favor llenar este formulario de pre-reserva y nosotros nos contactaremos con usted.</p>	
-			<div id="date">
-				<div class="contact-input">
-					<label class="label">Fecha de entrada</label>
-					<input type="text" name="datepicker-arrival" id="datepicker-arrival">
-				</div>
-				<div class="contact-input">
-					<label class="label">Fecha de salida</label>
-					<input type="text" name="datepicker-departure" id="datepicker-departure">
-				</div>
-			</div>
-
+		
 		<div class="msg">
 			<?php if (isset($message_display)) { echo $message_display; } ?>
 		</div>
-	<form id="contact-form" action="http://localhost/reserve/send_mail_reserve" method="post" accept-charset="utf-8">				<div id="date">
 		<hr>
 		<div class="price">
 			<p><strong>Precio por Cabañas</strong></p>
@@ -65,7 +54,6 @@ include("inc/menu-scroll.php");
 			<label class="label">Fecha de salida</label>
 			<input type="text" name="datepicker-departure" id="datepicker-departure">
 		</div>
-
 
 		<div class="contact-input">
 			<label class="label">Nombre＊</label>
@@ -96,7 +84,7 @@ include("inc/menu-scroll.php");
 			<label class="label">Precisiones＊</label>
 			<textarea id="text" cols="58" name="message" rows="10" placeholder="Escriba aquí su mensaje." required></textarea>
 		</div>
-		<input id="contact-button" type="submit" name="submit" value="ENVIAR" class='submit' /> </div>
+		<input id="contact-button" type="submit" name="submit" value="ENVIAR" class='submit' />
 	</form>
 </div>
 
