@@ -57,7 +57,7 @@ include("inc/header.php");
 
             <h1>BELLANDIA</h1>
 
-            <p>Bellandia es un lugar encantador en la Amazonía ecuatoriana. Es un sitio exclusivo con 4 modernas
+            <p>Bellandia es un lugar encantador en la Amazonía ecuatoriana. Es un sitio exclusivo con 4 modernas
                 habitaciones y 2 cabañas únicas en el país, cubiertas de tierra y vegetación, bioclimatizadas, que dan
                 la sensación de vivir inmerso en la naturaleza. Su gran cascada, la pureza de su piscina natural y los
                 hermosos senderos hacen de este lugar el sitio perfecto para descansar, disfrutar, conocer y
@@ -83,8 +83,8 @@ include("inc/header.php");
         <div class="description-panel right">
             <h3>DOBLE O TWIN</h3>
 
-            <p>Acceso Minusválidos Tienen 1 cuartos y un baño. Cama Full o twin. Terraza con hermosa vista a la
-                selva. Capacidad máxima 2 personas.</p>
+            <p>Acceso Minusválidos Tienen 1 cuartos y un baño. Cama Full o twin. Terraza con hermosa vista a la
+                selva. Capacidad máxima 2 personas.</p>
             <a href="<?php echo base_url(); ?>rooms">Más información</a>
             <a href="<?php echo base_url(); ?>reserve" class="button">VER DISPONIBILIDAD</a>
         </div>
@@ -94,8 +94,8 @@ include("inc/header.php");
         <div class="description-panel left">
             <h3>CABAÑA 2 HABITACIONES</h3>
 
-            <p>Tienen 2 cuartos y un baño. En un cuarto hay una cama full y en el otro 2 camas twin. Terraza con hermosa
-                vista a la selva.  Capacidad máxima 4 personas.</p>
+            <p>Tienen 2 cuartos y un baño. En un cuarto hay una cama full y en el otro 2 camas twin. Terraza con hermosa
+                vista a la selva.  Capacidad máxima 4 personas.</p>
             <a href="<?php echo base_url(); ?>rooms/index/4">Más información</a>
             <a href="<?php echo base_url(); ?>reserve" class="button">VER DISPONIBILIDAD</a>
         </div>
