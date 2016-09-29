@@ -82,6 +82,32 @@ $lang['reserve-msg'] = "Precisiones";
 $lang['reserve-msg-container'] = "Escriba aquí su mensaje.";
 $lang['reserve-send'] = "ENVIAR";
 
+// RESERVE (BOOK) - SUCCESS
+$lang['reserve-reserve'] = "RESERVAR";
+$lang['reserve-txt-1'] = "Nuestro deseo es de cuidar el ecosistema particular de Bellandia. Es indispensable que las visitas sean gestionadas cuidadosamente.";
+$lang['reserve-txt-2'] = "Le pedimos por favor llenar este formulario de pre-reserva y nosotros nos contactaremos con usted.";
+$lang['reserve-price'] = "Precio por Cabañas";
+$lang['reserve-includes'] = "(Desayuno y actividades incluidas)";
+$lang['reserve-1-guest'] = "1 persona ";
+$lang['reserve-2-guest'] = "2 personas ";
+$lang['reserve-3-guest'] = "3 personas ";
+$lang['reserve-4-guest'] = "4 personas ";
+$lang['reserve-1-guest-price'] = "$80/noche*";
+$lang['reserve-2-guest-price'] = "$140/noche*";
+$lang['reserve-3-guest-price'] = "$189/noche*";
+$lang['reserve-4-guest-price'] = "$210/noche*";
+$lang['reserve-iva'] = "*Precios no incluyen IVA.";
+$lang['reserve-entry-date'] = "Fecha de entrada";
+$lang['reserve-departure-date'] = "Fecha de salida";
+$lang['reserve-name'] = "Nombre";
+$lang['reserve-surname'] = "Apellido";
+$lang['reserve-email'] = "Correo electrónico";
+$lang['reserve-adults'] = "Número de adultos";
+$lang['reserve-children'] = "Número de niños";
+$lang['reserve-msg'] = "Precisiones";
+$lang['reserve-msg-container'] = "Escriba aquí su mensaje.";
+$lang['reserve-send'] = "ENVIAR";
+
 // HOME-FOOTER
 $lang['home-footer-connect'] = "CONECTA CON NOSOTROS";
 $lang['home-footer-follow'] = "SÍGUENOS";
