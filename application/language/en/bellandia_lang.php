@@ -38,6 +38,14 @@ $lang['rooms-reserve'] = "BOOK NOW";
 // ACTIVITIES
 $lang['activities-activities'] = "ACTIVITIES";
 
+// CONTACT
+$lang['contact-contact'] = "CONTACT";
+$lang['contact-name'] = "Name";
+$lang['contact-email'] = "Email";
+$lang['contact-msg'] = "Message";
+$lang['contact-msg-container'] = "Your message...";
+$lang['contact-send'] = "Send";
+
 // HOME-FOOTER
 $lang['home-footer-connect'] = "CONNECT WITH US";
 $lang['home-footer-follow'] = "FOLLOW US";

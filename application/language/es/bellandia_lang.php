@@ -36,7 +36,17 @@ $lang['rooms-rooms'] = "HABITACIONES";
 $lang['rooms-reserve'] = "RESERVA AHORA";
 
 // ACTIVITIES
-$lang['activities-activities'] = "HABITACIONES";
+$lang['activities-activities'] = "ACTIVIDADES";
+
+// CONTACT
+$lang['contact-contact'] = "CONTÁCTENOS";
+$lang['contact-name'] = "Nombre";
+$lang['contact-email'] = "Correo electrónico";
+$lang['contact-msg'] = "Su mensaje";
+$lang['contact-msg-container'] = "Escriba aquí su mensaje.";
+$lang['contact-send'] = "Enviar";
+
+
 
 // HOME-FOOTER
 $lang['home-footer-connect'] = "CONECTA CON NOSOTROS";

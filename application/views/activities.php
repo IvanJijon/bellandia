@@ -10,25 +10,6 @@ include("inc/header.php");
 include("inc/menu-scroll.php");
 ?>
 
-<?php
-
-/* //TEST connection BDD
-$servername = "192.168.1.142";
-$username = "bellandia";
-$password = "bellandia123";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}  
-echo "Connected successfully";
-*/
-
-?>
-
 <div class="content">
 	<h1 style="margin-bottom: 55px;">
 		<?php echo $this->lang->line('activities-activities');?>
@@ -66,9 +47,6 @@ echo "Connected successfully";
 		?>
 	
 </div>
-
-</div>
-
 
 <?php 
 include("inc/home-footer.php");
