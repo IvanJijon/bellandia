@@ -32,7 +32,11 @@ $lang['home-mas-info'] = "More information";
 $lang['home-ver-disponibilidad'] = "CHECK AVAILABILITY";
 
 // ROOMS
+$lang['rooms-rooms'] = "ROOMS";
 $lang['rooms-reserve'] = "BOOK NOW";
+
+// ACTIVITIES
+$lang['activities-activities'] = "ACTIVITIES";
 
 // HOME-FOOTER
 $lang['home-footer-connect'] = "CONNECT WITH US";

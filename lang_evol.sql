@@ -1,7 +1,7 @@
 -- Add column lang 
 ALTER TABLE activities ADD lang VARCHAR(60);
 ALTER TABLE rooms ADD lang VARCHAR(60);
-
+-- Add column _order 
 ALTER TABLE activities ADD activities_order VARCHAR(60) AFTER id;
 ALTER TABLE rooms ADD room_order VARCHAR(60) AFTER id;
 

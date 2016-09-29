@@ -31,7 +31,7 @@ echo "Connected successfully";
 
 <div class="content">
 	<h1 style="margin-bottom: 55px;">
-		ACTIVIDADES
+		<?php echo $this->lang->line('activities-activities');?>
 	</h1>
 
 	<!-- Loop sobre las actividades -->

@@ -32,7 +32,11 @@ $lang['home-mas-info'] = "Más información";
 $lang['home-ver-disponibilidad'] = "VER DISPONIBILIDAD";
 
 // ROOMS
+$lang['rooms-rooms'] = "HABITACIONES";
 $lang['rooms-reserve'] = "RESERVA AHORA";
+
+// ACTIVITIES
+$lang['activities-activities'] = "HABITACIONES";
 
 // HOME-FOOTER
 $lang['home-footer-connect'] = "CONECTA CON NOSOTROS";
