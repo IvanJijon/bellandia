@@ -44,4 +44,13 @@ $lang['home-footer-phone'] = "Teléfonos : ";
 $lang['home-footer-phone-desc'] = "+593996009781 +593980690699 +593987034034";
 $lang['home-footer-mail'] = "Mail : ";
 $lang['home-footer-mail-desc'] = "bellandialodge@gmail.com";
+
+// MENU-SCROLL
+$lang['menu-scroll-home'] = "INICIO";
+$lang['menu-scroll-rooms'] = "HABITACIONES";
+$lang['menu-scroll-activities'] = "ACTIVIDADES";
+$lang['menu-scroll-gallery'] = "GALERÍA";
+$lang['menu-scroll-contact'] = "CONTÁCTENOS";
+$lang['menu-scroll-coordinates'] = "CÓMO LLEGAR"; 
+$lang['menu-scroll-reserve'] = "RESERVAR";
 ?>
