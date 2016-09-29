@@ -46,7 +46,15 @@ $lang['contact-msg'] = "Su mensaje";
 $lang['contact-msg-container'] = "Escriba aquí su mensaje.";
 $lang['contact-send'] = "Enviar";
 
-
+// LOCATION (COORDINATES)
+$lang['coordinates-coordinates'] = "CÓMO LLEGAR";
+$lang['coordinates-bellandia-lodge-caps'] = "BELLANDIA LODGE";
+$lang['coordinates-address'] = "Dirección : ";
+$lang['coordinates-address-desc'] = "Km 21 vía Puyo-Tena y 6 Km vía a Boayacu, Puyo, Ecuador";
+$lang['coordinates-phone'] = "Teléfonos : ";
+$lang['coordinates-phone-desc'] = "+593996009781 +593980690699 +593987034034";
+$lang['coordinates-mail'] = "Mail : ";
+$lang['coordinates-mail-desc'] = "bellandialodge@gmail.com";
 
 // HOME-FOOTER
 $lang['home-footer-connect'] = "CONECTA CON NOSOTROS";
