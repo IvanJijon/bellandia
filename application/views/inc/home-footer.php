@@ -1,7 +1,7 @@
 <div id="home-footer">
 	<div class="contact">
-		<h3>CONECTA CON NOSOTROS</h3>
-		<h1>SÍGUENOS</h1>
+		<h3><?php echo $this->lang->line('home-footer-connect');?></h3>
+		<h1><?php echo $this->lang->line('home-footer-follow');?></h1>
 
 		<div class="social">
 			<div class="socialxl">
@@ -23,12 +23,12 @@
 	</div>
 	<div id="footer-content">
 		<div id="footer-title">
-			BELLANDIA LODGE
+			<?php echo $this->lang->line('home-footer-bellandia-lodge-caps');?>
 		</div>
 		<div id="information"> 
-			<strong>Dirección :</strong> Km 21 vía Puyo-Tena y 6 Km vía a Boayacu, Puyo, Ecuador</br>
-			<strong>Teléfonos :</strong> +593996009781 +593980690699 +593987034034</br>
-			<strong>Mail :</strong> bellandialodge@gmail.com
+			<strong><?php echo $this->lang->line('home-footer-address');?></strong><?php echo $this->lang->line('home-footer-address-desc');?></br>
+			<strong><?php echo $this->lang->line('home-footer-phone');?></strong><?php echo $this->lang->line('home-footer-phone-desc');?></br>
+			<strong><?php echo $this->lang->line('home-footer-mail');?></strong><?php echo $this->lang->line('home-footer-mail-desc');?></br>
 		</div>
 	</div>
 </div>

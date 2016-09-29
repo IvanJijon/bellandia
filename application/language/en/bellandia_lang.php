@@ -32,8 +32,16 @@ $lang['home-mas-info'] = "More information";
 $lang['home-ver-disponibilidad'] = "CHECK AVAILABILITY";
 
 // ROOMS
-$lang['rooms-reserve'] = "BOOK NOW"
+$lang['rooms-reserve'] = "BOOK NOW";
 
-
-// FOOTER
+// HOME-FOOTER
+$lang['home-footer-connect'] = "CONNECT WITH US";
+$lang['home-footer-follow'] = "FOLLOW US";
+$lang['home-footer-bellandia-lodge-caps'] = "BELLANDIA LODGE";
+$lang['home-footer-address'] = "Address : ";
+$lang['home-footer-address-desc'] = "Km 21 vía Puyo-Tena y 6 Km vía a Boayacu, Puyo, Ecuador";
+$lang['home-footer-phone'] = "Telephone : ";
+$lang['home-footer-phone-desc'] = "+593996009781 +593980690699 +593987034034";
+$lang['home-footer-mail'] = "Mail : ";
+$lang['home-footer-mail-desc'] = "bellandialodge@gmail.com";
 ?>
