@@ -22,7 +22,7 @@ include("inc/menu-scroll.php");
 
 <div class="content"> 
 	<h1>
-		RESERVAR
+		<?php echo $this->lang->line('reserve-reserve');?>
 	</h1>
 
 	<div class="msg">
@@ -30,61 +30,61 @@ include("inc/menu-scroll.php");
 	</div>
 		
 		<form id="contact-form" action="<?php echo base_url(); ?>reserve/send_mail_reserve" method="post" accept-charset="utf-8">
-		<p>Nuestro deseo es de cuidar el ecosistema particular de Bellandia. Es indispensable que las visitas sean gestionadas cuidadosamente.<br/> <br/>Le pedimos por favor llenar este formulario de pre-reserva y nosotros nos contactaremos con usted.</p>	
+		<p><?php echo $this->lang->line('reserve-txt-1');?><br/> <br/><?php echo $this->lang->line('reserve-txt-2');?></p>	
 		
 		<div class="msg">
 			<?php if (isset($message_display)) { echo $message_display; } ?>
 		</div>
 		<hr>
 		<div class="price">
-			<p><strong>Precio por Cabañas</strong></p>
-			(Desayuno y actividades incluidas)</br></br>
-			<strong>1 persona</strong> $80/noche*</br>
-			<strong>2 personas</strong> $140/noche*</br>
-			<strong>3 personas</strong> $189/noche*</br>
-			<strong>4 personas</strong> $210/noche*</br>
-			*Precios no incluyen IVA.
+			<p><strong><?php echo $this->lang->line('reserve-price');?></strong></p>
+			<?php echo $this->lang->line('reserve-includes');?></br></br>
+			<strong><?php echo $this->lang->line('reserve-1-guest');?></strong><?php echo $this->lang->line('reserve-1-guest-price');?></br>
+			<strong><?php echo $this->lang->line('reserve-2-guest');?></strong><?php echo $this->lang->line('reserve-2-guest-price');?></br>
+			<strong><?php echo $this->lang->line('reserve-3-guest');?></strong><?php echo $this->lang->line('reserve-3-guest-price');?></br>
+			<strong><?php echo $this->lang->line('reserve-4-guest');?></strong><?php echo $this->lang->line('reserve-4-guest-price');?></br>
+			<?php echo $this->lang->line('reserve-iva');?>
 		</div>	
 		<hr>
 		<div class="contact-input">
-			<label class="label">Fecha de entrada</label>
+			<label class="label"><?php echo $this->lang->line('reserve-entry-date');?></label>
 			<input type="text" name="datepicker-arrival" id="datepicker-arrival">
 		</div>
 		<div class="contact-input">
-			<label class="label">Fecha de salida</label>
+			<label class="label"><?php echo $this->lang->line('reserve-departure-date');?></label>
 			<input type="text" name="datepicker-departure" id="datepicker-departure">
 		</div>
 
 		<div class="contact-input">
-			<label class="label">Nombre＊</label>
+			<label class="label"><?php echo $this->lang->line('reserve-name');?>＊</label>
 			<input type="text" class="input" name="name" required>
 		</div>
 				
 		<div class="contact-input">
-			<label class="label">Apellido＊</label>
+			<label class="label"><?php echo $this->lang->line('reserve-surname');?>＊</label>
 			<input type="text" class="input" name="surname" required>
 		</div>
 				
 		<div class="contact-input">
-			<label class="label">Correo electrónico＊</label>
+			<label class="label"><?php echo $this->lang->line('reserve-email');?>＊</label>
 			<input type="text" class="input" name="user_email" required>
 		</div>
 
 		<div class="contact-input">
-			<label class="label">Número de adultos*</label>
+			<label class="label"><?php echo $this->lang->line('reserve-adults');?>*</label>
 			<input type="text" class="input" name="adults" required>
 		</div>
 
 		<div class="contact-input">
-			<label class="label">Número de niños</label>
+			<label class="label"><?php echo $this->lang->line('reserve-children');?></label>
 			<input type="text" class="input" name="kids">
 		</div>
 				
 		<div id="contact-mensaje">
-			<label class="label">Precisiones＊</label>
-			<textarea id="text" cols="58" name="message" rows="10" placeholder="Escriba aquí su mensaje." required></textarea>
+			<label class="label"><?php echo $this->lang->line('reserve-msg');?>＊</label>
+			<textarea id="text" cols="58" name="message" rows="10" placeholder="<?php echo $this->lang->line('reserve-msg-container');?>" required></textarea>
 		</div>
-		<input id="contact-button" type="submit" name="submit" value="ENVIAR" class='submit' />
+		<input id="contact-button" type="submit" name="submit" value="<?php echo $this->lang->line('reserve-send');?>" class='submit' />
 	</form>
 </div>
 

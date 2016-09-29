@@ -55,6 +55,33 @@ $lang['coordinates-phone-desc'] = "+593996009781 +593980690699 +593987034034";
 $lang['coordinates-mail'] = "Mail : ";
 $lang['coordinates-mail-desc'] = "bellandialodge@gmail.com";
 
+// RESERVE (BOOK)
+$lang['reserve-reserve'] = "BOOK NOW";
+$lang['reserve-txt-1'] = "Our desire is to protect the ecosystem of Bellandia. It is essential that the visit is carefully managed.";
+$lang['reserve-txt-2'] = "We ask you to please fill in this pre-booking form and we will contact you.";
+$lang['reserve-price'] = "Price per cabin";
+$lang['reserve-includes'] = "(Breakfast and activities included)";
+$lang['reserve-1-guest'] = "1 guest ";
+$lang['reserve-2-guest'] = "2 guests ";
+$lang['reserve-3-guest'] = "3 guests ";
+$lang['reserve-4-guest'] = "4 guests ";
+$lang['reserve-1-guest-price'] = "$80/night*";
+$lang['reserve-2-guest-price'] = "$140/night*";
+$lang['reserve-3-guest-price'] = "$189/night*";
+$lang['reserve-4-guest-price'] = "$210/night*";
+$lang['reserve-iva'] = "*Prices exclude VAT";
+$lang['reserve-entry-date'] = "Entry date";
+$lang['reserve-departure-date'] = "Departure date";
+$lang['reserve-name'] = "Name";
+$lang['reserve-surname'] = "Surname";
+$lang['reserve-email'] = "Email";
+$lang['reserve-adults'] = "Number of adults";
+$lang['reserve-children'] = "Number of children";
+$lang['reserve-msg'] = "Precisions";
+$lang['reserve-msg-container'] = "Your precisions...";
+$lang['reserve-send'] = "Send";
+
+
 // HOME-FOOTER
 $lang['home-footer-connect'] = "CONNECT WITH US";
 $lang['home-footer-follow'] = "FOLLOW US";
