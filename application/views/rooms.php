@@ -18,7 +18,7 @@ include("inc/menu-scroll.php");
 	<?php 
 	foreach ($rooms as $room) {
 	?>
-		<a href="/rooms/index/<?php echo $room->id ?>" title="<?php echo $room->name ?>" <?php echo $cRoom == $room->id ? "class=\"current\"" : "" ?>><?php echo $room->name ?></a>
+		<a href="/rooms/index/<?php echo $room->room_order ?>" title="<?php echo $room->name ?>" <?php echo $cRoom == $room->room_order ? "class=\"current\"" : "" ?>><?php echo $room->name ?></a>
 	<?php 
 	}
 	?>
@@ -26,7 +26,7 @@ include("inc/menu-scroll.php");
 
 	<?php 
 	foreach ($rooms as $room) {
-		if ($cRoom == $room->id) {
+		if ($cRoom == $room->room_order) {
 	?>
 	
 	<img src="<?php echo asset_url(); ?>img/rooms/<?php echo $room->img ?>" alt="<?php echo $room->name ?>" style="width: 940px; margin-bottom: 35px;" />
@@ -51,9 +51,9 @@ include("inc/menu-scroll.php");
 	<div class="description-image-row clear-fix">
 		<?php 
 		foreach ($rooms as $room) {
-			if ($cRoom != $room->id) {
+			if ($cRoom != $room->room_order) {
 		?>
-			<a href="/rooms/index/<?php echo $room->id ?>"><img src="<?php echo asset_url(); ?>img/rooms/<?php echo $room->img ?>" alt="<?php echo $room->name ?>" /><?php echo $room->name ?></a>
+			<a href="/rooms/index/<?php echo $room->room_order ?>"><img src="<?php echo asset_url(); ?>img/rooms/<?php echo $room->img ?>" alt="<?php echo $room->name ?>" /><?php echo $room->name ?></a>
 		<?php
 			}
 		}
