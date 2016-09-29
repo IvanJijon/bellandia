@@ -32,7 +32,7 @@ $lang['home-mas-info'] = "Más información";
 $lang['home-ver-disponibilidad'] = "VER DISPONIBILIDAD";
 
 // ROOMS
-$lang['rooms-reserve'] = "RESERVA AHORA"
+$lang['rooms-reserve'] = "RESERVA AHORA";
 
 // HOME-FOOTER
 $lang['home-footer-connect'] = "CONECTA CON NOSOTROS";
