@@ -5,7 +5,7 @@ $lang['menu-activities'] = "ACTIVITES";
 $lang['menu-gallery'] = "GALLERIE";
 $lang['menu-contact'] = "CONTACTEZ NOUS";
 $lang['menu-coordinates'] = "COMMENT S'Y RENDRE";
-$lang['menu-reserve'] = "RESERVAR";
+$lang['menu-reserve'] = "RESERVATION";
 
 // HOME
 $lang['home-video'] = "DECOUVREZ LA VIDEO";
@@ -16,7 +16,7 @@ $lang['home-gal-img'] = "GALLERIE D'IMAGES";
 $lang['home-enjoy-rooms'] = "PROFITEZ DE NOS";
 $lang['home-rooms-caps'] = "CHALETS";
 
-$lang['home-doble-twin'] = "DOBLE OU TWIN";
+$lang['home-doble-twin'] = "DOUBLE OU TWIN";
 $lang['home-doble-twin-desc'] = "Accès pour handicapés. Dispose d'une chambre et une salle de bain. Grand lit ou lits jumeaux. Terrasse avec vue magnifique sur la fôret. Capacité maximale 2 personnes.";			
 
 $lang['home-dos-habs'] = "CHALET 2 CHAMBRES";
@@ -25,7 +25,7 @@ $lang['home-dos-habs-desc'] = "Dispose de 2 chambres et une salle de bain. Une d
 $lang['home-verde-amp'] = "CHALET VERT SPATIEUX";
 $lang['home-verde-amp-desc'] = "Technologie avancée, ecologique. Recouverte de terre et végétation, elle bénéficie de l'effet bioclimatique. Unique dans le pays. 2 grands lits, 1 canapé grand, TV. Terrasse avec vue magnifique sur la fôret. Capacité maximale 4 personnes";
 
-$lang['home-verde'] = "CHALET VERDE";
+$lang['home-verde'] = "CHALET VERT";
 $lang['home-verde-desc'] = "Technologie avancée, ecologique. Recouverte de terre et végétation, elle bénéficie de l'effet bioclimatique. Unique dans le pays. Eau chaude rechauffée grâce à l'énergie solaire. 1 grand lit et un lit pour une personne, TV. Terrasse avec vue magnifique sur la fôret. Capacité maximale 3 personnes.";
 
 $lang['home-mas-info'] = "Voir les détails";
@@ -57,7 +57,7 @@ $lang['coordinates-mail'] = "Courriel : ";
 $lang['coordinates-mail-desc'] = "info@bellandia.com";
 
 // RESERVE (BOOK)
-$lang['reserve-reserve'] = "RESERVER";
+$lang['reserve-reserve'] = "RESERVATION";
 $lang['reserve-txt-1'] = "Notre désir est de protégér l'écosystème particulier de Bellandia. Il est indispensable que les visites soient gérées avec précaution.";
 $lang['reserve-txt-2'] = "On vous prie de bien vouloir remplir ce formulaire de pré-réserve et on se mettra en contact avec vous.";
 $lang['reserve-price'] = "Prix des chambres";
@@ -83,7 +83,7 @@ $lang['reserve-msg-container'] = "Saisissez ici votre message.";
 $lang['reserve-send'] = "ENVOYER";
 
 // RESERVE (BOOK) - SUCCESS
-$lang['reserve-reserve'] = "RESERVER";
+$lang['reserve-reserve'] = "RESERVATION";
 $lang['reserve-txt-1'] = "Notre désir est de protégér l'écosystème particulier de Bellandia. Il est indispensable que les visites soient gérées avec précaution.";
 $lang['reserve-txt-2'] = "On vous prie de bien vouloir remplir ce formulaire de pré-réserve et on se mettra en contact avec vous.";
 $lang['reserve-price'] = "Prix des chambres";
@@ -126,5 +126,5 @@ $lang['menu-scroll-activities'] = "ACTIVITES";
 $lang['menu-scroll-gallery'] = "CALLERIE";
 $lang['menu-scroll-contact'] = "CONTACTEZ NOUS";
 $lang['menu-scroll-coordinates'] = "COMMENT S'Y RENDRE"; 
-$lang['menu-scroll-reserve'] = "RESERVER";
+$lang['menu-scroll-reserve'] = "RESERVATION";
 ?>
